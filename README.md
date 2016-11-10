@@ -21,3 +21,6 @@ __SetBrightness__
 ```cs
 
 ```
+__SetColor__
+```cs
+```
