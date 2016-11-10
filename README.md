@@ -3,7 +3,7 @@ Philipse Hue
 
 ```cs
 C.EventSource<SlackMessage>()
-  .Filter<>() /* SOME FILTER */
+  .Filter<MessageRegex>("LIGHT ON") /* SOME FILTER */
   .Task<TurnOnLight>(1);
 ```
 
