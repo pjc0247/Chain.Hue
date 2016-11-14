@@ -7,6 +7,15 @@ C.EventSource<SlackMessage>()
   .Task<TurnOnLight>(1);
 ```
 
+처음 실행할 경우
+----
+```cs
+.Task<GetAppKey>()
+```
+```cs
+.Task<EnumLights>()
+```
+
 Tasks
 ----
 __TurnOnLight__
